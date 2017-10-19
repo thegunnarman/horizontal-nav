@@ -3,76 +3,63 @@ html {
   font-family: "Bevan", sans-serif;
   background-color: #dbd6cf;
   line-height: 1.5;
+  margin: 0 auto;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+  margin: 0 auto;
 }
 
-.header {
-  position: fixed;
-  text-align: center;
-}
-.cards {
+header {
+  background-color: #595652;
+  border: .3em .0em;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
 }
 
-.cards li {
-  display: inline-block;
-  margin: 0 .5em 1em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #fff;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
-  text-align: left;
+div {
+  background-color: #79756f;
+  margin: .3em .0em;
 }
 
-.cards img {
-  display: block;
-  margin: 0 auto 1rem;
-}
-
-.cards strong {
-  display: block;
-  margin-bottom: 1rem;
-
-  font-size: 1.25rem;
-}
-
-.cards dl {
-  margin-bottom: 1rem;
-}
-
-.cards dt {
-  display: inline-block;
-  width: 6em;
-  font-style: italic;
-}
-
-.cards dd {
-  display: inline-block;
+body {
   margin: 0;
-  min-width: 9em;
 }
 
-.cards div {
+h1 {
   text-align: center;
-}
-
-.cards a {
-  display: inline-block;
-  padding: .5em .75em;
-  background-color: #ccc;
-  border-radius: 4px;
-  color: #000;
-  text-decoration: none;
-}
-
-.cards a:hover {
-  background-color: #333;
   color: #fff;
+}
+
+
+
+nav li {
+  font-weight: bold;
+  font-size: 1.125rem;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: none;
+  padding: .6em .5em .75em;
+  margin: .3em;
+}
+
+a {
+  color: #fff;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  text-decoration: none;
+  background-color: #713837;
+  padding: .6em .5em .75em;
+  margin: .3em;
+}
+
+a:hover {
+  color: #b42885;
+  background-color: #f33
 }
