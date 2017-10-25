@@ -1,28 +1,26 @@
 html {
   box-sizing: border-box;
-  font-family: 'Bevan', sans-serif;
+  font-family: Bevan, serif;
   background-color: #dbd6cf;
   line-height: 1.5;
-  margin: 0 auto;
-
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  margin: 0 auto;
+
 }
 
 header {
   background-color: #595652;
-  border: .7em .0em;
-  margin: .1em;
-  padding: .05em .0em;
+  border: .7em 0em;
+  margin: 0;
+  padding: .05em 0em;
   text-align: center;
 }
 
 div {
   background-color: #79756f;
-  margin: .3em .0em;
+  margin: .1em 0em;
   text-align: center;
 }
 
@@ -33,10 +31,9 @@ body {
 h1 {
   text-align: center;
   color: #fff;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, serif;
+  margin: 0;
 }
-
-
 
 nav li {
   font-weight: bold;
@@ -45,10 +42,15 @@ nav li {
   vertical-align: middle;
   text-align: center;
   list-style-type: none;
-  text-decoration: none;
   font-family: none;
-  margin: 0;
+  margin: 0 0 .1em;
+  padding: 0;
+  border: 0;
+}
 
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -56,14 +58,13 @@ a {
   text-align: center;
   list-style-type: none;
   text-decoration: none;
-  display: inline;
-  text-decoration: none;
   background-color: #713837;
   padding: .6em .5em .75em;
-  margin: .3em;
+  margin: .3em 0;
   border-radius: .3em;
   border: 0;
   display: block;
+  font-family: sans-serif;
 }
 
 a:hover {
